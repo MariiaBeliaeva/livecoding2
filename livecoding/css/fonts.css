@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url(/fonts/Larsseit-Bold.otf);
+    src: url(/fonts/Larsseit-BoldItalic.otf);
+    src: url(/fonts/Larsseit-ExtraBold.otf);
+    src: url(/fonts/Larsseit-ExtraBoldItalic.otf);
+    src: url(/fonts/Larsseit-Italic.otf);
+    src: url(/fonts/Larsseit-Light.otf);
+    src: url(/fonts/Larsseit-LightItalic.otf);
+    src: url(/fonts/Larsseit-Medium.otf);
+    src: url(/fonts/Larsseit-MediumItalic.otf);
+}
