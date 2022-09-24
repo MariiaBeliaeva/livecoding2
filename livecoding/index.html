@@ -21,44 +21,48 @@
                 <a class="site-navigation__link" href="#">Services</a>
                 <a class="site-navigation__link" href="#">Blog</a>
             </nav>
-            <button class="button">Contact us</button>
+            <button class="button button__contact">Contact us</button>
         </header>
 
-        <section class="section1">
-            <div>
-                <h2>Thrivetalk</h2>
+        <section class="wellcome">
+            <div class="wellcome__content">
+                <h2 class="wellcome__title">Thrivetalk</h2>
                 <div>
                     <h3>HELPING YOU THRIVE IN ALL AREAS OF LIFE</h3>
-                    <p>Our highly talented therapists can help you with a range of issues including
-                        relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.</p>
+                    <p class="welcome-text">Our highly talented therapists can help you
+                        <br>
+                        with a range of issues including relationships,
+                        <br>
+                        sex, PTSD, depression, social anxiety, or even
+                        <br>
+                        just caring for yourself more.
+                    </p>
                 </div>
                 <div class="buttons">
                     <button class="button button__primary">WHO AM I</button>
                     <button class="button button__secondary">WHAT DO I DO</button>
                 </div>
             </div>
-            <img src="./assets/Mask Group.png" alt="Two people talking" class="mainphoto">
+            <img src="./assets/Mask Group.png" alt="Two people talking" class="wellcome__image">
         </section>
     </main>
 
     <section class="advantages">
         <div class="advantages__content">
             <h3 class="advantages__title">Why Thrive?</h3>
-            <div>
-                <p class="advantages__info">
-                    <span class="advantages__info--important">Want to improve your well-being from the comfort of
-                        your own couch? Are you having trouble
-                        finding
-                        the right therapist?</span> Here at ThriveTalk, our licensed therapists provide the same
-                    quality
-                    care
-                    you would get in office from anywhere you can access your laptop or mobile phone. Become your
-                    best
-                    self
-                    with
-                    ThriveTalk. Start therapy now with a licensed therapist!
-                </p>
-            </div>
+            <p class="advantages__info">
+                <span class="advantages__info--important">Want to improve your well-being from the comfort of
+                    your own couch? Are you having trouble
+                    finding
+                    the right therapist?</span> Here at ThriveTalk, our licensed therapists provide the same
+                quality
+                care
+                you would get in office from anywhere you can access your laptop or mobile phone. Become your
+                best
+                self
+                with
+                ThriveTalk. Start therapy now with a licensed therapist!
+            </p>
         </div>
         <img src="/assets/christopher-campbell-40367.png" alt="stretching lady" id="lady">
     </section>
@@ -77,58 +81,42 @@
         <h3 class="product-info__title">WE CAN HELP YOU WITH</h3>
         <div class="product-info__cards product-cards">
             <div class="product-cards__item product-cards__item--lift">
-                <hr>
-                <p>Weight Lifting</p>
+                <p class="product-cards__text"><span class="dot">&#x2022</span> Weight Lifting</p>
             </div>
             <div class="product-cards__item product-cards__item--run">
-                <img src="./assets/Rectangle 21.png" alt="green rectangle">
-                <br>
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Running & Spinning</p>
+                <p class="product-cards__text"><span class="dot">&#x2022</span> Running & Spinning</p>
             </div>
             <div class="product-cards__item product-cards__item--pump">
-                <img src="./assets/Rectangle turq.png" alt="turquose rectangle">
-                <br>
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Pumping Iron</p>
+                <p class="product-cards__text"><span class="dot">&#x2022</span> Pumping Iron</p>
             </div>
             <div class="product-cards__item product-cards__item--iron">
-                <img src="./assets/Rectangle blue.png" alt="blue rectangle">
-                <br>
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Pumping Iron</p>
+                <p class="product-cards__text"><span class="dot">&#x2022</span> Pumping Iron</p>
             </div>
         </div>
 
-        <div class="sixsquares">
-            <div class="health">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Physical Health</p>
+        <div class="product-info__cards product-cards--extended">
+            <div class="product-cards__item product-cards__item--health">
+                <p><span class="dot">&#x2022</span> Physical Health</p>
             </div>
-            <div class="gymnastics">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Gymnastics</p>
+            <div class="product-cards__item product-cards__item--gymnastics">
+                <p><span class="dot">&#x2022</span> Gymnastics</p>
             </div>
-            <div class="mental">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Mental Health</p>
+            <div class="product-cards__item product-cards__item--mental">
+                <p><span class="dot">&#x2022</span> Mental Health</p>
             </div>
-            <div class="crossfit">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Crossfit</p>
+            <div class="product-cards__item product-cards__item--crossfit">
+                <p><span class="dot">&#x2022</span> Crossfit</p>
             </div>
-            <div class="nutrition">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Nutrition</p>
+            <div class="product-cards__item product-cards__item--nutrition">
+                <p><span class="dot">&#x2022</span> Nutrition</p>
             </div>
-            <div class="aerobics">
-                <img src="./assets/Ellipse.png" alt="orange dot">
-                <p>Aerobics</p>
+            <div class="product-cards__item product-cards__item--aerobics">
+                <p><span class="dot">&#x2022</span> Aerobics</p>
             </div>
         </div>
     </section>
 
-    <section class="sixtexts">
+    <section class="product-info__cards--description">
         <div class="textssix">
             <h5>Nutritional Plans</h5>
             <p>
@@ -170,16 +158,16 @@
             <p>MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18 and
                 older
                 in a given year. We at ThriveTalk can help you.</p>
-            <button>GET HELP NOW</button>
+            <button class="button button__secondary">GET HELP NOW</button>
         </div>
     </section>
 
-    <section class="contactus">
+    <section class="sign-up">
         <div>
-            <button>CONTACT US</button>
-            <h4>Ready. Set. Smile</h4>
+            <h4>CONTACT US</h4>
+            <p>Ready. Set. Smile</p>
             <p>Take the free online assessment to see if you are a candidate and get started on your journey.</p>
-            <button>GET HELP NOW</button>
+            <button class="button sign-up__button">GET HELP NOW</button>
         </div>
         <img src="./assets/charles-etoroma-390119.png" alt="laughing man" id="laughingman">
     </section>

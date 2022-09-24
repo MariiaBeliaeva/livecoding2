@@ -5,8 +5,8 @@ body {
 h1 {
     font-size: 24px;
     line-height: 27px;
-    letter-spacing: -0.035em;
     color: #62D0DF;
+
 }
 
 h2 {
@@ -27,6 +27,10 @@ main {
     background-color: #F4F9E2;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -44,50 +48,125 @@ header {
     text-decoration: underline;
 }
 
-.section1 {
+.button__contact {
+    padding: 0.5%;
+    background-color: #62D0DF;
+    border-radius: 30px;
+}
+
+.wellcome {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     width: 100vw;
     height: 840px;
+}
+
+.wellcome__content {
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.welcome-text {
+    color: #22356F;
+    font-size: larger;
+    line-height: 2;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
 }
 
 .button__primary {
     width: 150px;
     height: 50px;
     background: #F9B640;
+    border: none;
+    color: #fff;
 }
 
-.buttons {
-    display: flex;
-    flex-direction: row;
+.button__secondary {
+    border: none;
+    background-color: transparent;
+    color: #FAB63E;
 }
 
 .advantages {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     width: 100vw;
     height: 607px;
     background: #62D0DF;
+    }
+
+    .advantages__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.advantages__title, .advantages__info {
+    margin: 1em;
+    color: #fff;
+}
+
+.advantages__info {
+    width: 50%;
+    font-size: larger;
+}
+
+.advantages__info--important {
+    font-weight: bolder;
 }
 
 .service-about {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     width: 100vw;
     height: 366px;
+    color: #22356F;
+}
+
+.service-about__title {
+    font-size: smaller;
+    margin: 5%;
+}
+
+.service-about__info {
+    margin: 5em;
+    font-size: larger;
+    width: 50%;
+}
+
+.dot {
+    color: #FAB63E;
+    font-size: larger;
+}
+
+.product-info__title {
+    text-align: center;
+    color: #D9D9D9;
+    font-size: small;
 }
 
 .product-info__cards {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 360px;
+    color: #fff;
+}
+
+.product-cards__text {
+    padding: 1%;
 }
 
 .product-cards__item--lift {
@@ -114,58 +193,58 @@ header {
     background-color: #0052C1;
 }
 
-.sixsquares {
+.product-cards--extended {
     display: flex;
-    flex-direction: row;
     flex-flow: column wrap;
-    align-items: center;
+    justify-content: space-around;
     width: 100vw;
     height: 960px;
 }
 
-.health {
+.product-cards__item--health {
     width: 480px;
     height: 480px;
     background-color: #22356F;
 }
 
-.mental {
+.product-cards__item--mental {
     width: 480px;
     height: 480px;
     background-color: #0052C1;
 }
 
-.nutrition {
+.product-cards__item--nutrition {
     width: 480px;
     height: 480px;
     background-image: url(/assets/joanna-kosinska-340748.png);
 }
 
-.gymnastics {
+.product-cards__item--gymnastics {
     width: 480px;
     height: 480px;
     background-color: #62D0DF;
 }
 
-.crossfit {
+.product-cards__item--crossfit {
     width: 480px;
     height: 480px;
     background-color: #DEE1FF;
 }
 
-.aerobics {
+.product-cards__item--aerobics {
     width: 480px;
     height: 480px;
     background-color: #8F00FF;
 }
 
-.sixtexts {
+.product-info__cards--description {
     display: flex;
     flex-direction: row;
     flex-flow: column wrap;
     align-items: center;
     width: 100vw;
     height: 480px;
+    color: rgba(34, 53, 111, 0.5);
 }
 
 .textssix {
@@ -185,12 +264,13 @@ header {
     align-content: center;
 }
 
-.contactus {
+.sign-up {
     width: 100vw;
     height: 800px;
     display: flex;
     background-color: #22356F;
     color: #FFFFFF;
+    justify-content: space-between;
 }
 
 .laughingman {
